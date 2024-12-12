@@ -145,3 +145,16 @@ This Lab demonstrates how to fine-tune a model using **SFTTrainer** and store mo
 
 ---
 
+## Model-centric approach
+Tune Hyperparameters:
+Experiment with learning rates, batch sizes, and weight decay values. Use a grid search to find the best hyperparameters. See what optimizes convergence.
+Scale the number of layers, attention heads, or hidden dimensions if computational resources permit.
+Try larger pre-trained models
+Experiment with dropout rates.
+
+
+## Data-centric approach
+Identify New Data Sources:
+Use synthetic data generation techniques such as chatGPT to create additional training examples.
+Introduce variability in the training data through techniques such as paraphrasing or synonyms
+Ensure the dataset covers a wide variety of examples to reduce model bias
